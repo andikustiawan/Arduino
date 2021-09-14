@@ -1,2 +1,2 @@
-# Arduino_Beginner
-contains basic programs about arduino
+# Arduino_Programs
+contains basic programs about arduino and sensor
