@@ -20,7 +20,7 @@ void loop() {
       return;
   }
   
-  Serial.print("ID Anda: ");
+  Serial.print("your id: ");
 
   String id = String(rfid.uid.uidByte[0]) + String(rfid.uid.uidByte[1]) + String(rfid.uid.uidByte[2]) + String(rfid.uid.uidByte[3]);
   Serial.println(id);
